@@ -474,11 +474,15 @@ nav li {
 
 }
     
-.aboutpara {
+
+    
+}
+
+@media (max-width:30em) {
+   
+    .aboutpara {
     font-size:0.95em;
-    }
-    
-    
+    } 
     
 }
     
