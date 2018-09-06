@@ -312,7 +312,7 @@ input[type=submit] {
     margin:0 auto;
     box-sizing: border-box;
     padding:1em;
-    width:30%;
+    width:50%;
     border: none;
     border-radius:500px;
     cursor: pointer;
@@ -540,6 +540,8 @@ nav a{
     font-family: museo-sans;
     float:right;
 }
+
+
     
 }
     
