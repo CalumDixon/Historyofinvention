@@ -484,5 +484,11 @@ nav li {
     font-size:0.95em;
     } 
     
+    body {
+    margin:0;
+    background-color:pink;
+    overflow: hidden;
+}
+    
 }
     
