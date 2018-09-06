@@ -471,12 +471,42 @@ nav li {
     
 .aboutcontainer {
     width:90%;
-
+    margin-top:28em;
 }
     
-    body {
-        background-color: skyblue;
+.requesttitle{
+    font-size:3em;
+    grid-column:2/20;
     }
+    
+.requestline{
+    grid-column:2/4;
+    }
+    
+.requestform {
+    display: block;
+    grid-column:2/20;
+    margin-bottom: 2em;
+} 
+    
+.abouttitle{
+    margin-top:1em;
+    font-size:3em;
+    grid-column:2/20;
+    }
+
+.aboutpara {
+    font-size: 1.25em;
+    grid-column:2/20;
+}
+
+.aboutpara3{
+    margin-bottom: 3em;
+}
+
+.aboutline {
+    margin-bottom: 1em;
+    grid-column:2/4;
     
 
     
@@ -484,11 +514,6 @@ nav li {
 
 @media (max-width:30em) {
    
-body {
-    margin:0;
-    background-color:#FFBE26;
-}
-
 .historylogo {
     margin-top: 10.5em;
 }
