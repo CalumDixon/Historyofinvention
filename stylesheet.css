@@ -305,6 +305,9 @@ select, textarea {
 }
 
 input[type=submit] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     background-color: #FFBE26;
     color: white;
     margin:0 auto;
