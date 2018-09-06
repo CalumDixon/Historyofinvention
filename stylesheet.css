@@ -502,7 +502,7 @@ nav li {
 }
     
 .abouttitle{
-    margin-top:2em;
+    margin-top:1em;
     font-size:2em;
     }
 
@@ -526,7 +526,7 @@ nav li {
     grid-column:3/4;
     height:5px;
     background-color:#FFBE26;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
     
 }
