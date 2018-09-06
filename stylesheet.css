@@ -118,7 +118,7 @@ nav a:hover {
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
-    max-width: 70%;
+    max-width: 85%;
     margin: 0 auto;
 }
 
@@ -327,22 +327,6 @@ input[type=submit]:hover {
     background-color: #FF8326;
     transition:500ms
 }
-
-@media (max-width:85em){
-        body{
-            background-color: aqua;
-        }
-}
-
-
-@media (max-width:70em){
-        body{
-            background-color: pink;
-        }
-}
-
-
-
 
 @media (max-width:50em) {
     
