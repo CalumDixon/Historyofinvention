@@ -70,11 +70,11 @@ nav a:hover {
     width:70%;
     background-color: white;
     margin: 0 auto;
-    margin-top:18em;
+    margin-top:19em;
     z-index: 2;
     box-shadow:0px 25px 40px -20px #FF8326,
     0px -25px 40px -20px #110919;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
     display: grid;
     grid-template-columns:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
 }
@@ -233,10 +233,10 @@ nav a:hover {
     width:70%;
     background-color: white;
     margin: 0 auto;
-    margin-top:10em;
+    margin-top:5em;
     z-index: 2;
     box-shadow:0px 25px 40px -20px #FF8326;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
     display: grid;
     grid-template-columns:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
 }
@@ -311,7 +311,7 @@ input[type=submit] {
     color: white;
     margin:0 auto;
     box-sizing: border-box;
-    padding:1em;
+    padding:1em 1em 1em 1em;
     width:50%;
     border: none;
     border-radius:500px;
@@ -498,22 +498,24 @@ body {
     }
     
 .aboutcontainer {
-    margin-top:10.5em;
-    margin-bottom: 5em;
+    margin-top:13em;
+    margin-bottom: 3em;
 }
     
 .requestcontainer {
-    margin-bottom: 5em;
-    margin-top: 5em;
+    margin-bottom: 3em;
+    margin-top: 3em;
     }
     
 .abouttitle{
     margin-top:1em;
     font-size:2em;
+    grid-column:2/20;
     }
 
 .aboutpara {
     font-size: 1em;
+    grid-column:2/20;
 }
 
 .aboutpara3{
@@ -522,6 +524,7 @@ body {
 
 .aboutline {
     margin-bottom: 1em;
+    grid-column:2/4;
 }
     
 nav a{
@@ -529,7 +532,7 @@ nav a{
 }
     
 .eventcontent h2{
-    font-size:0.9em;
+    font-size:1em;
     font-family: museo-sans;
     font-weight:900;
 }
@@ -543,8 +546,18 @@ nav a{
 
 .requesttitle{
     font-size:2em;
+    grid-column:2/20;
     }
-
+    
+.requestline{
+    grid-column:2/4;
+    }
+    
+.requestform {
+    display: block;
+    grid-column:2/20;
+    margin-bottom: 2em;
+}
 
     
 }
