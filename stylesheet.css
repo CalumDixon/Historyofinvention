@@ -492,6 +492,30 @@ nav li {
     margin:0;
     background-color:pink;
 }
+
+.historylogo {
+    max-width:80em;
+    margin: 0 auto;
+    display: block;
+    margin-top: 13em;
+}
+    
+    .topimage {
+        background-image: url(newtopimage-iphone.png);
+    }
+    
+.aboutcontainer {
+    width:70%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top:6em;
+    z-index: 2;
+    box-shadow:0px 25px 40px -20px #FF8326,
+    0px -25px 40px -20px #110919;
+    margin-bottom: 10em;
+    display: grid;
+    grid-template-columns:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+}
     
 }
     
