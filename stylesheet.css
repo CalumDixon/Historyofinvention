@@ -328,8 +328,18 @@ input[type=submit]:hover {
     transition:500ms
 }
 
+@media (max-width:85em){
+        body{
+            background-color: aqua;
+        }
+}
 
 
+@media (max-width:70em){
+        body{
+            background-color: pink;
+        }
+}
 
 
 
@@ -471,7 +481,7 @@ nav li {
     
 .aboutcontainer {
     width:90%;
-    margin-top:28em;
+    margin-top:29em;
 }
     
 .requesttitle{
@@ -511,6 +521,8 @@ nav li {
 
     
 }
+    
+    }
 
 @media (max-width:30em) {
    
