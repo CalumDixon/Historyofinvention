@@ -345,7 +345,7 @@ input[type=submit]:hover {
 }
 
 nav a:hover {
-    color:black;
+    color:#FFBE26;
     transition: all ease-in-out 200ms;
 }
 
@@ -356,7 +356,7 @@ nav ul {
 }
 
 .navbar{
-    width:95%;
+    width:100%;
     max-width:1000px;
     margin:0 auto
 }
@@ -389,6 +389,7 @@ nav li {
     display: block;
     margin-left:0px;
     padding:0px;
+    width:100%;
 }
  
 
@@ -507,11 +508,6 @@ nav li {
 
 .aboutpara {
     font-size: 1em;
-    grid-column:3/19;
-    font-family: museo-sans;
-    font-weight:500;
-    margin: 0;
-    margin-bottom:1em;
 }
 
 .aboutpara3{
@@ -519,12 +515,11 @@ nav li {
 }
 
 .aboutline {
-    content:'';
-    display: block;
-    grid-column:3/4;
-    height:5px;
-    background-color:#FFBE26;
     margin-bottom: 1em;
+}
+    
+nav a{
+    font-size:1.2em;
 }
     
 }
