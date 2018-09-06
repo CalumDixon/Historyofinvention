@@ -105,7 +105,6 @@ nav a:hover {
 .aboutline {
     content:'';
     display: block;
-    z-index: 60000;
     grid-column:3/4;
     height:5px;
     background-color:#FFBE26;
@@ -522,7 +521,6 @@ nav li {
 .aboutline {
     content:'';
     display: block;
-    z-index: 60000;
     grid-column:3/4;
     height:5px;
     background-color:#FFBE26;
