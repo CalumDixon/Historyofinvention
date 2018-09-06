@@ -499,7 +499,13 @@ nav li {
     
 .aboutcontainer {
     margin-top:10.5em;
+    margin-bottom: 5em;
 }
+    
+.requestcontainer {
+    margin-bottom: 5em;
+    margin-top: 5em;
+    }
     
 .abouttitle{
     margin-top:1em;
@@ -520,6 +526,19 @@ nav li {
     
 nav a{
     font-size:1.2em;
+}
+    
+.eventcontent h2{
+    font-size:0.9em;
+    font-family: museo-sans;
+    font-weight:900;
+}
+
+.eventdate {
+    font-size:1em;
+    font-weight: 700;
+    font-family: museo-sans;
+    float:right;
 }
     
 }
