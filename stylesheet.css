@@ -144,6 +144,11 @@ nav a:hover {
     width: 50%;
 }
 
+.event a {
+    text-decoration: none;
+    color:#222;
+}
+
 /* The circles on the timeline */
 .event::after {
     content: '';
@@ -393,6 +398,17 @@ input[type=submit]:hover {
     font-weight:500;
     margin: 0;
     margin-bottom:1em;
+}
+
+.bodylink{
+    text-decoration-line: underline;
+    color:#222;
+    transition:75ms ease-in-out;
+}
+
+.bodylink:hover{
+    color:#FF8326;
+    transition:75ms ease-in-out;
 }
 
 .articleline {
@@ -875,7 +891,9 @@ nav a{
 
 .articletitle{
     grid-column:2/20;
-    font-size:1.4em;
+    width:100%;
+    text-align: center;
+    font-size:1.8em;
     padding: 0;
     color:#222;
     font-family: museo-sans;
@@ -883,6 +901,17 @@ nav a{
     margin: 0;
     margin-top:1em;
     }
+    
+.articledate {
+    float:right;
+    text-align: center;
+    font-size:0.8em;
+    font-weight: 700;
+    width:100%;
+    grid-column:2/20;
+    font-family: museo-sans;
+    margin-bottom: 1.5em;
+}
 
 .articleimage {
     width:100%;
@@ -921,12 +950,7 @@ nav a{
 }
 
 .articleline {
-    content:'';
-    display: block;
-    grid-column:2/4;
-    height:5px;
-    background-color:#FFBE26;
-    margin-bottom:2em;
+display: none;
 }
 
 .articlequote {
@@ -954,12 +978,6 @@ nav a{
     margin-bottom: 2em;
 }
 
-.articledate {
-    float:right;
-    font-size:1em;
-    font-weight: 700;
-    font-family: museo-sans;
-}
 
 button {
     height: 3em;
