@@ -896,7 +896,7 @@ nav a{
 
 .articletitle{
     grid-column:2/20;
-    font-size:1.6em;
+    font-size:1.4em;
     padding: 0;
     color:#222;
     font-family: museo-sans;
@@ -917,7 +917,7 @@ nav a{
     font-weight:500;
     width:100%;
     margin: 0;
-    padding-top:0.8em;
+    padding-top:0.5em;
 }
 
 .imagecontainer {
@@ -952,7 +952,7 @@ nav a{
 
 .articlequote {
     font-size: 1.4em;
-    grid-column:3/19;
+    grid-column:2/20;
     text-align: center;
     font-family: museo-slab;
     color:#222;
@@ -965,7 +965,7 @@ nav a{
 
 .articlequotename{
     font-size: 1.4em;
-    grid-column:3/19;
+    grid-column:2/20;
     text-align: center;
     font-family: museo-sans;
     color:#222;
