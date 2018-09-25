@@ -673,7 +673,7 @@ nav li {
     font-family: museo-sans;
     font-weight:900;
     margin: 0;
-    margin-top:1em;
+    margin-top:0.5em;
     }
 
 .articleimage {
@@ -718,7 +718,7 @@ nav li {
     grid-column:2/4;
     height:5px;
     background-color:#FFBE26;
-    margin-bottom:2em;
+    margin-bottom:1em;
 }
 
 .articlequote {
@@ -730,7 +730,7 @@ nav li {
     font-style: italic;
     font-weight:700;
     margin:0;
-    margin-top: 2em;
+    margin-top: 1.5em;
     margin-bottom:0.5em;
 }
 
