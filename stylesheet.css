@@ -866,7 +866,7 @@ nav a{
 }
 
 .requesttitle{
-    font-size:2em;
+    font-size:1.8em;
     grid-column:2/20;
     }
     
@@ -886,7 +886,7 @@ nav a{
     width:90%;
     background-color: white;
     margin: 0 auto;
-    margin-top:2em;
+    margin-top:1em;
     z-index: 2;
     box-shadow:0px 25px 40px -20px #FF8326;
     margin-bottom: 0em;
@@ -910,7 +910,7 @@ nav a{
 }
 
 .imagecaption{
-    font-size: 0.8em;
+    font-size: 0.7em;
     background: #eee;
     color:#222;
     font-family: museo-slab;
@@ -927,7 +927,7 @@ nav a{
     margin: 0 auto;
     margin-top:0.5em;
     margin-bottom: 2em;
-    padding:1em;
+    padding:0.5em;
     background-color: #eee;
     border-radius:5px
 }
@@ -952,7 +952,7 @@ nav a{
 }
 
 .articlequote {
-    font-size: 1.6em;
+    font-size: 1.4em;
     grid-column:3/19;
     text-align: center;
     font-family: museo-slab;
@@ -965,7 +965,7 @@ nav a{
 }
 
 .articlequotename{
-    font-size: 1.6em;
+    font-size: 1.4em;
     grid-column:3/19;
     text-align: center;
     font-family: museo-sans;
@@ -985,7 +985,7 @@ nav a{
 
 button {
     height: 3em;
-    width: 80%;
+    width: 90%;
     display:block;
     margin:0 auto;
     background:white;
