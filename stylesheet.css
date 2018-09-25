@@ -868,7 +868,7 @@ nav a{
     margin-top:1em;
     z-index: 2;
     box-shadow:0px 25px 40px -20px #FF8326;
-    margin-bottom: 0em;
+    margin-bottom: 1em;
     display: grid;
     grid-template-columns:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
 }
@@ -881,7 +881,7 @@ nav a{
     font-family: museo-sans;
     font-weight:900;
     margin: 0;
-    margin-top:2em;
+    margin-top:1em;
     }
 
 .articleimage {
@@ -938,7 +938,7 @@ nav a{
     font-style: italic;
     font-weight:700;
     margin:0;
-    margin-top: 2em;
+    margin-top: 1.5em;
     margin-bottom:0.5em;
 }
 
