@@ -83,6 +83,7 @@ nav a:hover {
     grid-column:3/19;
     font-size:3.750em;
     padding: 0;
+    color:#222;
     font-family: museo-sans;
     font-weight:900;
     margin: 0;
@@ -92,7 +93,7 @@ nav a:hover {
 .aboutpara {
     font-size: 1.25em;
     grid-column:3/19;
-    font-family: museo-sans;
+    font-family: museo-slab;
     font-weight:500;
     margin: 0;
     margin-bottom:1em;
@@ -328,9 +329,151 @@ input[type=submit]:hover {
     transition:500ms
 }
 
+
+
+
+
+
+
+
+
+
+.articlecontainer {
+    width:90%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top:5em;
+    z-index: 2;
+    box-shadow:0px 25px 40px -20px #FF8326;
+    margin-bottom: 5em;
+    display: grid;
+    grid-template-columns:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+}
+
+.articletitle{
+    grid-column:6/16;
+    font-size:2.6em;
+    padding: 0;
+    color:#222;
+    font-family: museo-sans;
+    font-weight:900;
+    margin: 0;
+    margin-top:4em;
+    }
+
+.articleimage {
+    width:100%;
+}
+
+.imagecaption{
+    font-size: 1em;
+    background: #eee;
+    color:#222;
+    font-family: museo-slab;
+    font-weight:500;
+    width:100%;
+    margin: 0;
+    padding-top:0.8em;
+}
+
+.imagecontainer {
+    grid-column:6/16;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+    margin-top:0.5em;
+    margin-bottom: 2em;
+    padding:1em;
+    background-color: #eee;
+    border-radius:5px
+}
+
+.articlepara {
+    font-size: 1.2em;
+    grid-column:6/16;
+    font-family: museo-slab;
+    font-weight:500;
+    margin: 0;
+    margin-bottom:1em;
+}
+
+.articleline {
+    content:'';
+    display: block;
+    grid-column:6/7;
+    height:5px;
+    background-color:#FFBE26;
+    margin-bottom:2em;
+}
+
+.articlequote {
+    font-size: 2em;
+    grid-column:6/16;
+    text-align: center;
+    font-family: museo-slab;
+    color:#222;
+    font-style: italic;
+    font-weight:700;
+    margin:0;
+    margin-top: 2em;
+    margin-bottom:0.5em;
+}
+
+.articlequotename{
+    font-size: 2em;
+    grid-column:4/18;
+    text-align: center;
+    font-family: museo-sans;
+    color:#222;
+    font-style: italic;
+    font-weight:500;
+    margin:0;
+    margin-bottom: 5em;
+}
+
+.articledate {
+    float:right;
+    font-size:1em;
+    font-weight: 700;
+    font-family: museo-sans;
+}
+
+button {
+    height: 3em;
+    width: 30%;
+    display:block;
+    margin:0 auto;
+    background:white;
+    border-radius:2em;
+    cursor: pointer;
+    border:none;
+    font-family: museo-sans, sans-serif;
+    font-weight:700;
+    font-size:1.7em;
+    margin-top:2em;
+    color:#222;
+}
+
+.returnbutton:hover {
+    transform: scale(1.02);
+    transition:ease-in-out 500ms;
+    box-shadow: 0px 7px 15px -3px #FF8326;
+}
+
+.returnbutton{
+    transform: scale(1);
+    transition: ease-in-out 500ms;
+    border-radius:2em;
+    margin-top:2em;
+    margin-bottom: 4em;
+}
+
+
+
+
 @media (max-width:50em) {
     
-    nav a {
+nav a {
     transition:all ease-in-out 200ms;
     display: block;
     padding: 2em 6em;
@@ -501,10 +644,148 @@ nav li {
 .aboutline {
     margin-bottom: 1em;
     grid-column:2/4;
-    
+    }
 
     
+    
+    
+    
+    
+    
+    
+    
+    
+.articlecontainer {
+    width:90%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top:2em;
+    z-index: 2;
+    box-shadow:0px 25px 40px -20px #FF8326;
+    margin-bottom: 0em;
+    display: grid;
+    grid-template-columns:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
 }
+
+.articletitle{
+    grid-column:2/20;
+    font-size:2.6em;
+    padding: 0;
+    color:#222;
+    font-family: museo-sans;
+    font-weight:900;
+    margin: 0;
+    margin-top:1em;
+    }
+
+.articleimage {
+    width:100%;
+}
+
+.imagecaption{
+    font-size: 1em;
+    background: #eee;
+    color:#222;
+    font-family: museo-slab;
+    font-weight:500;
+    width:100%;
+    margin: 0;
+    padding-top:0.8em;
+}
+
+.imagecontainer {
+    grid-column:3/19;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+    margin-top:0.5em;
+    margin-bottom: 2em;
+    padding:1em;
+    background-color: #eee;
+    border-radius:5px
+}
+
+.articlepara {
+    font-size: 1.2em;
+    grid-column:2/20;
+    font-family: museo-slab;
+    font-weight:500;
+    margin: 0;
+    margin-bottom:1em;
+}
+
+.articleline {
+    content:'';
+    display: block;
+    grid-column:2/4;
+    height:5px;
+    background-color:#FFBE26;
+    margin-bottom:2em;
+}
+
+.articlequote {
+    font-size: 2em;
+    grid-column:3/19;
+    text-align: center;
+    font-family: museo-slab;
+    color:#222;
+    font-style: italic;
+    font-weight:700;
+    margin:0;
+    margin-top: 2em;
+    margin-bottom:0.5em;
+}
+
+.articlequotename{
+    font-size: 2em;
+    grid-column:3/19;
+    text-align: center;
+    font-family: museo-sans;
+    color:#222;
+    font-style: italic;
+    font-weight:500;
+    margin:0;
+    margin-bottom: 5em;
+}
+
+.articledate {
+    float:right;
+    font-size:1em;
+    font-weight: 700;
+    font-family: museo-sans;
+}
+
+button {
+    height: 3em;
+    width: 80%;
+    display:block;
+    margin:0 auto;
+    background:white;
+    border-radius:2em;
+    cursor: pointer;
+    border:none;
+    font-family: museo-sans, sans-serif;
+    font-weight:700;
+    font-size:1.7em;
+    color:#222;
+}
+
+.returnbutton:hover {
+    transform: scale(1.02);
+    transition:ease-in-out 500ms;
+}
+
+.returnbutton{
+    transform: scale(1);
+    transition: ease-in-out 500ms;
+    border-radius:2em;
+    margin-bottom: 2em;
+}    
+    
+    
+    
+    
+    
     
     }
 
@@ -579,50 +860,100 @@ nav a{
     grid-column:2/20;
     margin-bottom: 2em;
 }
-
-}
-
+    
+    
+    
 .articlecontainer {
-    width:70%;
+    width:90%;
     background-color: white;
     margin: 0 auto;
-    margin-top:5em;
+    margin-top:2em;
     z-index: 2;
     box-shadow:0px 25px 40px -20px #FF8326;
-    margin-bottom: 5em;
+    margin-bottom: 0em;
     display: grid;
     grid-template-columns:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
 }
 
 .articletitle{
-    grid-column:4/18;
-    font-size:3.750em;
+    grid-column:2/20;
+    font-size:1.6em;
     padding: 0;
+    color:#222;
     font-family: museo-sans;
     font-weight:900;
     margin: 0;
-    margin-top:1em;
+    margin-top:2em;
     }
 
-.articlepara {
-    font-size: 1.25em;
-    grid-column:4/18;
-    font-family: museo-sans;
-    font-weight:500;
-    margin: 0;
-    margin-bottom:1em;
+.articleimage {
+    width:100%;
 }
 
-.articleparaend{
-    margin-bottom: 4em;
+.imagecaption{
+    font-size: 0.8em;
+    background: #eee;
+    color:#222;
+    font-family: museo-slab;
+    font-weight:500;
+    width:100%;
+    margin: 0;
+    padding-top:0.8em;
+}
+
+.imagecontainer {
+    grid-column:2/20;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+    margin-top:0.5em;
+    margin-bottom: 2em;
+    padding:1em;
+    background-color: #eee;
+    border-radius:5px
+}
+
+.articlepara {
+    font-size: 1em;
+    grid-column:2/20;
+    font-family: museo-slab;
+    font-weight:500;
+    margin: 0;
+    color:pink;
+    margin-bottom:1em;
 }
 
 .articleline {
     content:'';
     display: block;
-    grid-column:4/5;
+    grid-column:2/4;
     height:5px;
     background-color:#FFBE26;
+    margin-bottom:2em;
+}
+
+.articlequote {
+    font-size: 1.6em;
+    grid-column:3/19;
+    text-align: center;
+    font-family: museo-slab;
+    color:#222;
+    font-style: italic;
+    font-weight:700;
+    margin:0;
+    margin-top: 2em;
+    margin-bottom:0.5em;
+}
+
+.articlequotename{
+    font-size: 1.6em;
+    grid-column:3/19;
+    text-align: center;
+    font-family: museo-sans;
+    color:#222;
+    font-style: italic;
+    font-weight:500;
+    margin:0;
     margin-bottom: 2em;
 }
 
@@ -632,4 +963,32 @@ nav a{
     font-weight: 700;
     font-family: museo-sans;
 }
-    
+
+button {
+    height: 3em;
+    width: 80%;
+    display:block;
+    margin:0 auto;
+    background:white;
+    border-radius:2em;
+    cursor: pointer;
+    border:none;
+    font-family: museo-sans, sans-serif;
+    font-weight:700;
+    font-size:1.4em;
+    color:#222;
+}
+
+.returnbutton:hover {
+    transform: scale(1.02);
+    transition:ease-in-out 500ms;
+}
+
+.returnbutton{
+    transform: scale(1);
+    transition: ease-in-out 500ms;
+    border-radius:2em;
+    margin-bottom: 2em;
+}     
+
+}
