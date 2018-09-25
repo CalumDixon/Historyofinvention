@@ -329,7 +329,26 @@ input[type=submit]:hover {
     transition:500ms
 }
 
+a {
+    text-decoration: none;
+    color:#222;
+}
 
+a:visted {
+    color:#222;
+}
+
+a:active {
+    color:#222;
+}
+
+a:link {
+    color:#222;
+}
+
+a:hover {
+    color:#222;
+}
 
 
 
