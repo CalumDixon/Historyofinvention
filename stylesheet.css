@@ -488,8 +488,13 @@ button {
 
 @media (max-width:90em){
     
+    .historylogo {
+    margin-top: 8em;
+}
+    
     .aboutcontaier{
-        margin-top:15em; 
+        margin-top:15em;
+        background-color: pink;
 }
 }
 
