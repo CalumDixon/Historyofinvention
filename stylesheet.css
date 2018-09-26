@@ -487,7 +487,10 @@ button {
 }
 
 @media (max-width:90em){
-    margin-top:15em; 
+    
+    .aboutcontaier{
+        margin-top:15em; 
+}
 }
 
 
