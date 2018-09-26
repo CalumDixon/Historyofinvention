@@ -992,6 +992,7 @@ button {
     font-weight:700;
     font-size:1.4em;
     color:#222;
+    text-decoration: none;
 }
 
 .returnbutton:hover {
@@ -1004,6 +1005,7 @@ button {
     transition: ease-in-out 500ms;
     border-radius:2em;
     margin-bottom: 3em;
+    text-decoration: none;
 }     
 
 }
